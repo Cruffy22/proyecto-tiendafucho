@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "nombre":"Playera de futbol Club América",
+        "categoría":"Playeras",
+        "precio": 1299.99,
+        "descripción": "Playera local del Club América, con diseño tradicional en amarillo y detalles azulcremas.",
+        "stock":25,
+        "año":2026
+    },
+    {
+        "id":2,
+        "nombre":"Balón Brazuca 2014",
+        "categoría":"Balones",
+        "precio": 499.99,
+        "descripción": "Balón oficial del Mundial Brasil 2014, con diseño colorido inspirado en la cultura brasileña.",
+        "stock":3,
+        "año":2014
+    },
+    {
+        "id":3,
+        "nombre":"Tachos de Neymar 2016",
+        "categoría":"Tenis",
+        "precio": 799.99,
+        "descripción": "Tachos de Neymar de 2016, con diseño llamativo y tecnología enfocada en velocidad y control.",
+        "stock":4,
+        "año":2016
+    }   
+]
