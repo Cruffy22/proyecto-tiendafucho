@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catálogo Completo - Tienda de Fucho</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Fucho</h1>
+        <nav>
+            <a href="index.php">Inicio</a> / 
+            <a href="accesorios.php">Catálogo</a> / 
+            <span>Catálogo Completo</span>
+        </nav>
+    </header>
+
+    <main>
+        <section id="item-destacado">
+            <h2>Balón Brazuca 2014</h2>
+
+            <figure>
+                <a href="https://placehold.co/600x400" target="_blank">
+                    <img src="https://placehold.co/300x200" alt="Balón de futbol oficial Brazuca con diseño colorido">
+                </a>
+                <figcaption>Balón oficial de juego - Temporada 2014</figcaption>
+            </figure>
+
+            <h3>Detalles del producto</h3>
+            <ul>
+                <li><strong>Marca:</strong> Adidas</li>
+                <li><strong>Categoría:</strong> Balones</li>
+                <li><strong>Precio:</strong> $499.99</li>
+            </ul>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Pedido rápido</legend>
+                    <label for="cant">Cantidad:</label>
+                    <input type="number" id="cant" name="cantidad" value="1" min="1" required>
+                    <button type="submit">Agregar al carrito</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="tabla-catalogo">
+            <h2>Todos los Accesorios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Categoría</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Playera Club América</td>
+                        <td>Playeras</td>
+                        <td>$1299.99</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Balón Brazuca 2014</td>
+                        <td>Balones</td>
+                        <td>$499.99</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Tachos Neymar 2016</td>
+                        <td>Tenis</td>
+                        <td>$799.99</td>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Cristian Pérez</p>
+    </footer>
+</body>
+</html>

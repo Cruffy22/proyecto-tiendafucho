@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda de Fucho - Agregar Accesorio</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Tienda de Fucho</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="accesorios.php">Catálogo</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Agregar Accesorio</h2>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos del Accesorio</legend>
+
+                    <label for="nombre-producto">Nombre del accesorio:</label>
+                    <input type="text" name="nombre_producto" id="nombre-producto" required>
+                    <br>
+
+
+                    <label for="categoria-producto">Categoría:</label>
+                    <select name="categoria_producto" id="categoria-producto" required>
+                        <option value="">-- Selecciona una categoría --</option>
+                        <option value="playeras">Playeras</option>
+                        <option value="balones">Balones</option>
+                        <option value="calzado">Calzado</option>
+                    </select>
+                    <br>
+
+
+                    <label for="precio-producto">Precio ($):</label>
+                    <input type="number" name="precio_producto" id="precio-producto" step="0.01" min="0" required>
+                    <br>
+
+                    <label for="stock-producto">Cantidad en Stock:</label>
+                    <input type="number" name="stock_producto" id="stock-producto" min="0" required>
+                    <br>
+
+
+                    <label for="fecha-ingreso">Fecha de ingreso:</label>
+                    <input type="date" name="fecha_ingreso" id="fecha-ingreso" required>
+                    <br>
+
+
+                    <label for="imagen-url">URL de la imagen:</label>
+                    <input type="url" name="imagen_url" id="imagen-url" placeholder="https://ejemplo.com/imagen.jpg">
+                    <br>
+
+                    <!-- Textarea -->
+                    <label for="descripcion-producto">Descripción o notas:</label>
+                    <textarea name="descripcion_producto" id="descripcion-producto" rows="4" cols="40"></textarea>
+                    <br>
+
+                    <button type="submit">Agregar accesorio</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tienda de Fucho. Todos los derechos reservados. - Cristian</p>
+    </footer>
+</body>
+</html>

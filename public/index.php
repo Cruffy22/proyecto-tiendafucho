@@ -5,10 +5,13 @@
     <body>
         <header>
             <h1>Bienvenido a nuestra Tienda de Fucho</h1>
+            <link rel="stylesheet" href="assets/css/estilos.css">
             <nav>
-                <a href="index.php">Inicio</a>
-                <a href="accesorios.php">Catálogo</a>
-                <a href="contacto.php">Contacto</a>
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="accesorios.php">Catálogo</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                </ul>
             </nav>
         </header>
 
