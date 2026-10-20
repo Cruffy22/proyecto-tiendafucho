@@ -8,7 +8,10 @@
     --columnas-catalogo:1;
 
 }
-
+/* 
+   Si no se usaran variables de CSS, habría que modificar manualmente el valor del color 
+   en cada regla del archivo cuando cambie el diseño. 
+*/
 *::before, *::after{
     box-sizing: border-box;
 }
@@ -52,7 +55,11 @@ nav a:hover{
     color: #ff9d94;
     text-decoration: underline;
 }
+/* 
 
+   Las clases (.clase) se prefieren sobre los ID (#id) para aplicar estilos porque los ID 
+   tienen una especificidad excesivamente alta y pues las clases son mas faciles de aplicar aun siendo especificas
+*/
 .tarjetas-productos{
     display: grid;
     grid-template-columns: repeat(var(--columnas-catalogo),1fr);
