@@ -1,14 +1,15 @@
 :root{
-    --color-primario: #1e3a5f;
-    --color-acento: #2e86ab;
-    --color-texto: #212529;
+    --color-primario: #0B3D2E;
+    --color-acento: #C2410C;
+    --color-acento-hover: #9A3412;
+    --color-resalte: #FFC72C;
+    --color-texto: #16211C;
+    --color-fondo: #F6F7F2;
+    --color-borde: #D8DDD3;
+    --color-error: #b3261e;
     --fuente-base: "Segoe UI", Arial, sans-serif;
     --espaciado-base: 8px;
-    --color-fondo: #f5f7fa;
-    --color-acento: #1f6a8a;
-    --color-error:#b3261e;
-    --columnas-catalogo:2;
-
+    --columnas-catalogo: 2;
 }
 
 *::before, *::after{
