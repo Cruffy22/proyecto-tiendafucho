@@ -7,7 +7,7 @@ https://github.com/Cruffy22/proyecto-tiendafucho
 ## Dominio y entidades
 
 | Entidad del curso | Equivalente en mi proyecto |
-|---|---|
+
 | Categoria | Categoría (Playeras, Balones, Tenis) |
 | Producto | Accesorio |
 | Cliente / Usuario | Cliente / Usuario|

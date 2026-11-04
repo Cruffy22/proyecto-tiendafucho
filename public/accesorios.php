@@ -1,19 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tienda de Fucho - Accesorios</title>
         <link rel="stylesheet" href="assets/css/estilos.css">
     </head>
     <body>
         <header>
             <h1>Productos</h1>
-            <nav>
+            <nav aria-label="Principal">
                 <ul>
                     <li><a href="index.php">Inicio</a></li>
-                    <li><a href="accesorios.php">Catálogo</a></li>
+                    <li><a href="accesorios.php" aria-current="page">Catálogo</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </nav>
         </header>
+        
         <main>
             <h2>Catálogo<h2>
             <a href="agregar-accesorio.php" class="boton-agregar">Agregar accesorio +</a>
