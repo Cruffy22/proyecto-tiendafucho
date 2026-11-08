@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <h1>Bienvenido a Tienda TEC</h1>
+            <h1>Bienvenido a Tienda de Fucho</h1>
             <nav aria-label="Principal">
                 <ul>
                     <li><a href="index.php">Inicio</a></li>

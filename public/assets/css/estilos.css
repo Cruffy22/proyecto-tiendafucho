@@ -1,12 +1,12 @@
 :root{
     --color-primario: #0B3D2E;
-    --color-acento: #C2410C;
+    --color-acento: #d4450c;
     --color-acento-hover: #9A3412;
     --color-resalte: #FFC72C;
     --color-texto: #16211C;
     --color-fondo: #F6F7F2;
     --color-borde: #D8DDD3;
-    --color-error: #b3261e;
+    --color-error: #ab0900;
     --fuente-base: "Segoe UI", Arial, sans-serif;
     --espaciado-base: 8px;
     --columnas-catalogo: 2;
