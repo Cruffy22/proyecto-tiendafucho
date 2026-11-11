@@ -1,29 +1,72 @@
 [
     {
-        "id":1,
-        "nombre":"Playera de futbol Club América",
-        "categoría":"Playeras",
+        "id": 1,
+        "nombre": "Playera de futbol Club América",
+        "categoria": "Playeras",
         "precio": 1299.99,
-        "descripción": "Playera local del Club América, con diseño tradicional en amarillo y detalles azulcremas.",
-        "stock":25,
-        "año":2026
+        "descripcion": "Playera local del Club América, con diseño tradicional en amarillo y detalles azulcremas.",
+        "stock": 25,
+        "año": 2026,
+        "imagen": "https://site-product.innovasport.com/img-test/JN8612/JN8612_1-1200x1200.jpg"
     },
     {
-        "id":2,
-        "nombre":"Balón Brazuca 2014",
-        "categoría":"Balones",
+        "id": 2,
+        "nombre": "Balón Brazuca 2014",
+        "categoria": "Balones",
         "precio": 499.99,
-        "descripción": "Balón oficial del Mundial Brasil 2014, con diseño colorido inspirado en la cultura brasileña.",
-        "stock":3,
-        "año":2014
+        "descripcion": "Balón oficial del Mundial Brasil 2014, con diseño colorido inspirado en la cultura brasileña.",
+        "stock": 3,
+        "año": 2014,
+        "imagen": "https://media.gq.com.mx/photos/5bea0b2bba170c0ec5cfeb88/1:1/w_413,h_413,c_limit/brazuca_2768.jpg"
     },
     {
-        "id":3,
-        "nombre":"Tachos de Neymar 2016",
-        "categoría":"Tenis",
+        "id": 3,
+        "nombre": "Tachos de Neymar 2016",
+        "categoria": "Tenis",
         "precio": 799.99,
-        "descripción": "Tachos de Neymar de 2016, con diseño llamativo y tecnología enfocada en velocidad y control.",
-        "stock":4,
-        "año":2016
-    }   
+        "descripcion": "Tachos de Neymar de 2016, con diseño llamativo y tecnología enfocada en velocidad y control.",
+        "stock": 4,
+        "año": 2016,
+        "imagen": "https://media.telemetro.com/p/727451c197b59e52746959754685f77e/adjuntos/311/imagenes/006/473/0006473828/1200x675/smart/los-nuevos-tacos-que-utilizara-neymar.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Playera Selección Mexicana 2026",
+        "categoria": "Playeras",
+        "precio": 1399.99,
+        "descripcion": "Playera local de la Selección Mexicana en verde, con detalles tricolor.",
+        "stock": 18,
+        "año": 2026,
+        "imagen": "https://placehold.co/200x150?text=Playera+Mexico"
+    },
+    {
+        "id": 5,
+        "nombre": "Balón Al Rihla 2022",
+        "categoria": "Balones",
+        "precio": 549.99,
+        "descripcion": "Balón oficial del Mundial Qatar 2022 con diseño de ondas multicolor.",
+        "stock": 0,
+        "año": 2022,
+        "imagen": "https://placehold.co/200x150?text=Al+Rihla"
+    },
+    {
+        "id": 6,
+        "nombre": "Tenis Nike Mercurial Vapor",
+        "categoria": "Tenis",
+        "precio": 2499.99,
+        "descripcion": "Tenis de velocidad con suela para pasto natural y ajuste ceñido.",
+        "stock": 7,
+        "año": 2023,
+        "imagen": "https://placehold.co/200x150?text=Mercurial"
+    },
+    {
+        "id": 7,
+        "nombre": "Playera Real Madrid 2024",
+        "categoria": "Playeras",
+        "precio": 1499.99,
+        "descripcion": "Playera local del Real Madrid en blanco con detalles dorados.",
+        "stock": 10,
+        "año": 2024,
+        "imagen": "https://placehold.co/200x150?text=Real+Madrid"
+    }
 ]

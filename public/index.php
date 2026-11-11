@@ -1,3 +1,12 @@
+<?php
+declare(strict_types=1);
+
+require_once __DIR__ . '/../src/datos/RepositorioProductos.php';
+require_once __DIR__ . '/../src/utilidades/vistas.php';
+
+$repositorio = new RepositorioProductos(__DIR__ . '/../datos/datos.json');
+$destacados = array_slice($repositorio->obtenerTodos(), 0, 3);
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
